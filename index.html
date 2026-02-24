@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun K | Engineer Portfolio</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2L2 22h20L12 2zm0 13l-4 7h8l-4-7z' fill='%236D28D9'/%3E%3C/svg%3E">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827;
+            color: #e5e7eb;
+        }
+        .text-gradient {
+            background-image: linear-gradient(to right, #6D28D9, #DB2777);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card {
+            background-color: #1f2937;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.04), 0 0 30px rgba(109, 40, 217, 0.5);
+        }
+        .section-animation {
+            opacity: 0;
+            transform: translateY(2rem);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .section-animation.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 min-h-screen text-gray-200">
+    <div class="container mx-auto px-4 py-8">
+
+        <header class="text-center py-16 bg-gray-800 rounded-3xl shadow-lg mb-12 card-animation">
+            <img src="https://placehold.co/150x150/374151/d1d5db?text=Varun+K" alt="Varun K" class="rounded-full w-36 h-36 mx-auto mb-4 border-4 border-purple-500">
+            <h1 class="text-4xl sm:text-5xl font-bold text-gray-100 mb-2">
+                VARUN K
+            </h1>
+            <p class="text-lg sm:text-xl font-medium text-gray-400 mb-4">
+                Electronics and Communication Engineer | Embedded Engineer | Software Enthusiast
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="https://www.linkedin.com/in/-varun-k" class="text-gray-400 hover:text-purple-400 transition duration-300" target="_blank">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.765s.784-1.765 1.75-1.765 1.75.79 1.75 1.765-.783 1.765-1.75 1.765zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/varunzz" class="text-gray-400 hover:text-purple-400 transition duration-300" target="_blank">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.6.111.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.542-1.373-1.322-1.745-1.322-1.745-1.087-.731.084-.716.084-.716 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.49.998.108-.776.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.383 1.235-3.221-.135-.303-.54-1.523.1-3.176 0 0 1.006-.322 3.3.968.956-.266 1.984-.399 3.004-.404 1.02.005 2.048.138 3.006.404 2.29-1.29 3.296-.968 3.296-.968.645 1.653.24 2.873.12 3.176.765.838 1.23 1.911 1.23 3.221 0 4.609-2.807 5.624-5.474 5.922.42.36.816 1.096.816 2.212 0 1.606-.015 2.898-.015 3.291 0 .315.21.69.825.57C20.565 21.802 24 17.326 24 12.001 24 5.373 18.627 0 12 0z" clip-rule="evenodd"/>
+                    </svg>
+                </a>
+                <a href="mailto:varunsuresh45@gmail.com" class="text-gray-400 hover:text-purple-400 transition duration-300">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M1.996 4.41C.893 5.481.25 6.917.25 8.5v7c0 1.583.643 3.019 1.746 4.09l9.004-9.004L1.996 4.41zM22.004 4.41l-9.004 9.004-9.004-9.004C1.357 5.481.75 6.917.75 8.5v7c0 1.583.607 3.019 1.708 4.09l9.004-9.004 9.004 9.004c1.103-1.071 1.708-2.507 1.708-4.09v-7c0-1.583-.643-3.019-1.746-4.09zM22.004 4.41L12.9 13.435 3.796 4.41c1.074-1.074 2.47-1.705 3.996-1.705h10.424c1.526 0 2.922.631 3.996 1.705z"/>
+                    </svg>
+                </a>
+            </div>
+        </header>
+
+        <section class="mb-12 section-animation">
+            <div class="bg-gray-800 p-8 rounded-3xl shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center text-gradient">
+                    About Me
+                </h2>
+                <p class="text-gray-400 text-lg leading-relaxed text-center max-w-3xl mx-auto">
+                    Electronics and Communication Engineer specializing in C/C++ firmware development and hardware-software integration. With professional experience analyzing commercial fire alarm control networks, I bridge the gap between physical hardware constraints and scalable system logic. I focus on architecting fault-tolerant, multithreaded Industrial IoT edge nodes using FreeRTOS, building thread-safe data pipelines, and deploying asynchronous cloud telemetry.
+                </p>
+            </div>
+        </section>
+
+        <section class="mb-12 section-animation">
+            <div class="bg-gray-800 p-8 rounded-3xl shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center text-gradient">
+                    Skills & Expertise
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="card p-6 text-center duration-300 ease-in-out hover:bg-gray-700 flex flex-col">
+                        <h3 class="font-semibold text-xl text-gray-100 mb-4">Languages</h3>
+                        <ul class="text-gray-400 list-disc list-inside space-y-2">
+                            <li>C & C++</li>
+                            <li>Python (Core & OOP)</li>
+                            <li>Memory Mgmt (Pointers/Structs)</li>
+                            <li>JavaScript</li>
+                            <li>HTML & CSS</li>
+                        </ul>
+                    </div>
+                    <div class="card p-6 text-center duration-300 ease-in-out hover:bg-gray-700 flex flex-col">
+                        <h3 class="font-semibold text-xl text-gray-100 mb-4">Tools & Others</h3>
+                        <ul class="text-gray-400 list-disc list-inside space-y-2">
+                            <li>PlatformIO & VS Code</li>
+                            <li>Wokwi (Hardware Simulation)</li>
+                            <li>Version Control (Git)</li>
+                            <li>Machine Learning & Gen AI</li>
+                            <li>MS Excel & BOQ Analysis</li>
+                        </ul>
+                    </div>
+                     <div class="card p-6 text-center duration-300 ease-in-out hover:bg-gray-700 flex flex-col">
+                        <h3 class="font-semibold text-xl text-gray-100 mb-4">Embedded & IoT</h3>
+                        <ul class="text-gray-400 list-disc list-inside space-y-2">
+                            <li>FreeRTOS (Tasks, Queues, Mutexes)</li>
+                            <li>ESP32 & Microcontrollers</li>
+                            <li>Protocols (MQTT, UART, I2C, HTTP)</li>
+                            <li>Sensor Integration (ADC, PWM, GPIO)</li>
+                            <li>Commercial Fire Life Safety Systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 section-animation">
+            <div class="bg-gray-800 p-8 rounded-3xl shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center text-gradient">
+                    Featured Projects
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <div class="card p-6 duration-300 ease-in-out hover:bg-gray-700 flex flex-col">
+                        <img src="images/wokwi-circuit.png" alt="IIoT Safety Controller Circuit" class="rounded-lg mb-4 w-full aspect-video object-cover object-center border border-gray-700">
+                        <h3 class="font-semibold text-2xl text-gray-100 mb-2">IIoT Safety Controller & Edge Node</h3>
+                        <p class="text-gray-400 mb-4 flex-grow">
+                            Architected a fault-tolerant ESP32 safety controller utilizing FreeRTOS preemptive scheduling to decouple asynchronous MQTT cloud telemetry from time-critical hardware interrupts. Engineered thread-safe data pipelines using RTOS Queues and Mutexes.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-gray-700 text-gray-300 text-sm px-3 py-1 rounded-full">FreeRTOS</span>
+                            <span class="bg-gray-700 text-gray-300 text-sm px-3 py-1 rounded-full">ESP32</span>
+                            <span class="bg-gray-700 text-gray-300 text-sm px-3 py-1 rounded-full">MQTT</span>
+                            <span class="bg-gray-700 text-gray-300 text-sm px-3 py-1 rounded-full">C++</span>
+                        </div>
+                        <div class="flex gap-4 mt-auto pt-4 border-t border-gray-600">
+                            <a href="https://github.com/varunzz" target="_blank" class="text-purple-400 hover:text-purple-300 text-sm font-semibold flex items-center gap-1 transition-colors">
+                                Source Code (GitHub)
+                            </a>
+                            <span class="text-gray-500">|</span>
+                            <a href="https://wokwi.com/projects/456845194710339585" target="_blank" class="text-pink-400 hover:text-pink-300 text-sm font-semibold flex items-center gap-1 transition-colors">
+                                Live Simulation
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card p-6 duration-300 ease-in-out hover:bg-gray-700 flex flex-col">
+                        <img src="images\magnetic.png" alt="Magnetic Field Detector" class="rounded-lg mb-4 w-full aspect-video object-cover object-center border border-gray-700">
+                        <h3 class="font-semibold text-2xl text-gray-100 mb-2">Magnetic Field Detector</h3>
+                        <p class="text-gray-400 mb-4 flex-grow">
+                            A portable device designed to measure the magnetic field within a small radius. The project utilizes a Hall effect sensor to detect voltage variations, which are then processed by a microcontroller programmed with C++. The results are displayed using an output device.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-gray-700 text-gray-300 text-sm px-3 py-1 rounded-full">C++</span>
+                            <span class="bg-gray-700 text-gray-300 text-sm px-3 py-1 rounded-full">Microcontroller</span>
+                            <span class="bg-gray-700 text-gray-300 text-sm px-3 py-1 rounded-full">Hardware</span>
+                        </div>
+                    </div>
+
+                    <div class="card p-6 duration-300 ease-in-out hover:bg-gray-700 flex flex-col">
+                        <img src="images\Hand-gesture.png" alt="Hand Gesture Recognition" class="rounded-lg mb-4 w-full aspect-video object-cover object-center border border-gray-700">
+                        <h3 class="font-semibold text-2xl text-gray-100 mb-2">Hand Gesture Recognition</h3>
+                        <p class="text-gray-400 mb-4 flex-grow">
+                            A Python-based program that converts input from a camera into text or speech using machine learning. The project employs a Convolutional Neural Network (CNN) to analyze visual imagery and includes functionality for training the model.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="bg-gray-700 text-gray-300 text-sm px-3 py-1 rounded-full">Python</span>
+                            <span class="bg-gray-700 text-gray-300 text-sm px-3 py-1 rounded-full">Machine Learning</span>
+                            <span class="bg-gray-700 text-gray-300 text-sm px-3 py-1 rounded-full">CNN</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section class="mb-12 section-animation">
+            <div class="bg-gray-800 p-8 rounded-3xl shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center text-gradient">
+                    Certifications
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="card p-6 text-center duration-300 ease-in-out hover:bg-gray-700 flex flex-col">
+                        <h3 class="font-semibold text-xl text-gray-100 mb-4">Generative AI</h3>
+                        <ul class="text-gray-400 list-disc list-inside space-y-2">
+                            <li><a href="https://www.linkedin.com/learning/certificates/f4226cf6e914799c38a5e54923620d5cbda2b0c71fc5b7fc798e4cbb183258b3" class="text-purple-400 hover:text-purple-300 transition-colors duration-300" target="_blank">Career Essentials in Gen AI - Microsoft & LinkedIn</a></li>
+                            <li><a href="https://www.cloudskillsboost.google/public_profiles/25474b99-295b-411f-a159-8c6fd4eb6ea0/badges/9428068" class="text-purple-400 hover:text-purple-300 transition-colors duration-300" target="_blank">Introduction to Generative AI - Google Cloud</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mb-12 section-animation">
+            <div class="bg-gray-800 p-8 rounded-3xl shadow-lg text-center">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 text-gradient">
+                    Get in Touch
+                </h2>
+                <p class="text-gray-400 text-lg mb-6">
+                    Interested in my work or want to connect? Feel free to reach out to me via email or LinkedIn.
+                </p>
+                <a href="mailto:varunsuresh45@gmail.com" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 hover:shadow-lg">
+                    Say Hello!
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const observerOptions = {
+                root: null,
+                rootMargin: "0px",
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.section-animation').forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
