@@ -1,6 +1,6 @@
 # Varun K | Engineering Portfolio
 
-[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fvarunzz.github.io%2FPortfolio%2F&up_message=Online&up_color=success&style=flat-square)](https://varunzz.github.io/portfolio/)
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fvarunzz.github.io%2Fportfolio%2F&up_message=Online&up_color=success&style=flat-square)](https://varunzz.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/-varun-k)
 
 **Live Portfolio:** [varunzz.github.io/portfolio/](https://varunzz.github.io/portfolio/)
