@@ -3,7 +3,7 @@
 [![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fvarunzz.github.io%2FPortfolio%2F&up_message=Online&up_color=success&style=flat-square)](https://varunzz.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/-varun-k)
 
-**Live Portfolio:** [varunzz.github.io/Portfolio/](https://varunzz.github.io/portfolio/)
+**Live Portfolio:** [varunzz.github.io/portfolio/](https://varunzz.github.io/portfolio/)
 
 ## 👨‍💻 About Me
 I am an Electronics and Communication Engineer specializing in C/C++ firmware development and hardware-software integration. With professional experience analyzing commercial fire alarm control networks, I bridge the gap between physical hardware constraints and scalable system logic. I focus on architecting fault-tolerant, multithreaded Industrial IoT edge nodes using FreeRTOS, building thread-safe data pipelines, and deploying asynchronous cloud telemetry.
